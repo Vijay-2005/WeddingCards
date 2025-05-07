@@ -1,7 +1,7 @@
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const CardCategories = () => {
-  // Use the scroll animation hook
+  // Use the scroll animation hook to trigger animations on scroll
   useScrollAnimation();
 
   // Sample data for card categories
