@@ -5,7 +5,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "regions": ["all"],
   "headers": [
     {
       "source": "/(.*).(js|css|json|svg|png|jpg|jpeg|gif|woff|woff2|ttf|eot|ico)",
