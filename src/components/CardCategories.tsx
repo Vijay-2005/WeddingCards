@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
 const CardCategories = () => {
-  // Use the scroll animation hook
+  // Use the scroll animation hook to trigger animations on scroll
   useScrollAnimation();
 
   // Sample data for card categories
@@ -53,7 +52,7 @@ const CardCategories = () => {
           <p>Find the perfect invitation for your special day</p>
         </div>
         <div className="grid categories-grid">
-          {categories.map((category, index) => (
+          {categories.map((category) => (
             <div key={category.id} className="category-card modern-card stagger-item">
               <div className="category-img-container">
                 <img 
