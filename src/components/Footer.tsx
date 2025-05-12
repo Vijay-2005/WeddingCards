@@ -34,13 +34,12 @@ const Footer = () => {
               <li className="footer-link"><a href="#categories">Muslim Wedding Cards</a></li>
             </ul>
           </div>
-          
-          <div className="footer-col">
+            <div className="footer-col">
             <h3 className="footer-heading">Contact Info</h3>
             <ul className="footer-links">
-              <li className="footer-link">123 Wedding Street, Mumbai</li>
+              <li className="footer-link">1908, Kadolkar Galli, Raviwar Peth, Belagavi, Karnataka 590001</li>
               <li className="footer-link">info@veercards.com</li>
-              <li className="footer-link">+91 1234567890</li>
+              <li className="footer-link">08310540614</li>
               <li className="footer-link">Mon-Sat: 10:00 AM - 7:00 PM</li>
             </ul>
           </div>
